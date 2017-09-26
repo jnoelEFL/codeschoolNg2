@@ -9,7 +9,7 @@ import 'rxjs/add/operator/switchMap';
 })
 export class RaceDetailComponent implements OnInit {
 
-  private raceId
+  raceId: number
 
   constructor(private route: ActivatedRoute) { }
 
