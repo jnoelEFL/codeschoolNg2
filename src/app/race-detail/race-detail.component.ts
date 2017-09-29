@@ -5,7 +5,7 @@ import 'rxjs/add/operator/switchMap';
 @Component({
   selector: 'app-race-detail',
   templateUrl: './race-detail.component.html',
-  styleUrls: ['./race-detail.component.css']
+  styleUrls: ['./race-detail.component.styl']
 })
 export class RaceDetailComponent implements OnInit {
 

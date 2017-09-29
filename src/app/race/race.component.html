@@ -11,7 +11,7 @@
           <p class="description">{{race.about}}</p>
         </td>
         <td>
-          <p class="price">{{race.entryFee | currency:'USD':true}}</p>
+          <p class="price">{{race.entryFee | currency:'EUR':true}}</p>
         </td>
         <td>
           <button class="button" *ngIf="!race.isRacing" (click)="enterRace()">Enter Race</button>

@@ -4,7 +4,7 @@ import { RacesComponent } from '../races/races.component'
 @Component({
   selector: 'race',
   templateUrl: './race.component.html',
-  styleUrls: ['./race.component.css']
+  styleUrls: ['./race.component.styl']
 })
 export class RaceComponent implements OnInit {
 
